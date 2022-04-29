@@ -22,7 +22,7 @@ default = ["x11", "wayland", "wayland-dlopen"]
 
 [dependencies]
 lazy_static = "1.3"
-winit = { git = "https://github.com/lapce/glutin", branch = "new-keyboard-all", default-features = false }
+winit = { git = "https://github.com/lapce/winit", branch = "new-keyboard-all", default-features = false }
 
 [target.'cfg(target_os = "android")'.dependencies]
 android_glue = "0.2"
